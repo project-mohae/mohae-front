@@ -1,7 +1,8 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import { wrapper } from "../store";
+
 import Head from "next/head";
+import wrapper from "../store/configureStore";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
